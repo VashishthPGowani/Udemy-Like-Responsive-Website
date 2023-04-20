@@ -18,3 +18,35 @@ nav a:hover {
   background-color: white;
   color: black;
 }
+
+.categories_card{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: relative;
+}
+
+.card_img{
+  overflow: hidden;
+  padding-left: 17px;
+}
+
+.card_label{
+  color: #1c1d1f;
+  padding-left: 17px;
+}
+
+.testimonial_card{
+  background: #fff;
+  border: 1px solid #d1d7dc;
+  display: flex;
+  height: 100%;
+  padding: 2.4rem;
+  width: 32.7rem;
+}
+
+.testimonial_container{
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: column;
+  grid-gap: 1.6rem;
+}
