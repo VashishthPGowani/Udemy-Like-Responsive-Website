@@ -54,7 +54,7 @@ nav a:hover {
   display: flex;
   height: 100%;
   padding: 2.4rem;
-  width: 32.7rem;
+  width: 15rem;
 }
 
 .testimonial_container{
@@ -80,7 +80,7 @@ nav a:hover {
 .hero_image_card_body{
   flex: 1 1 auto;
   min-height: 1px;
-  padding-bottom: 1.5rem;
+  
 }
 .simple_card_title
 {
@@ -131,6 +131,25 @@ nav a:hover {
 {
   font-size: 20px;
   
+ 
+}
+.courses
+{
+  width: 24%;
+    overflow: hidden;
+  text-align: center;
+  display: inline-block;
+  margin:3px;
+}
+.courses img{
+  width:230px;
+  height:230px;
+  object-fit: cover;
+ 
+}
+h2
+{
+  font-size: 30px;
  
 }
 /* main end */
