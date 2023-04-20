@@ -534,6 +534,7 @@ footer {
 }
 .navlink li {
   list-style-type: none;
+  display:block;
 }
 
 /* FOOTER END */
