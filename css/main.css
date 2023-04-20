@@ -562,4 +562,25 @@ button{
   height: 188px;
 }
 
+.simple_card_title{
+  display: none;
+}
+
+.main_hero_image2 {  
+  height: 300px;
+}
+
+.community1{
+  display: block;
+  font-size: large;
+}
+
+#headin1 {
+  font-size: 20px;
+}
+
+#nav2 a {
+  font-size: 14px;
+}
+
 }
