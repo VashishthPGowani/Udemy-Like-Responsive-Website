@@ -435,8 +435,58 @@ padding-bottom: 5%;
   height: 200px;
 padding: 0 5px 0 5px;
 }
+.udem_companies {
+  background-color: #414242;
+  padding: 13px 0 13px 0;
+}
+.udem_companies img {
+  height: 120px;
+  width: 120px;
+  padding: 4% 3% 4% 3%;
+}
+.udem_companies {
+  text-align:center;
+  font-size: 2.1rem;
+  color: white;
+}
 
-
+.udem-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.udem-grid-item {
+  font-size: 20px;
+  text-align:left;
+}
+form {
+padding-top: 10%;
+}
+input, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+#sub_button {
+  color: white;
+  background-color: blueviolet;
+}
 /* mobile media query  */
 @media screen and (max-width:768px) {
   .categories_card{    
