@@ -21,6 +21,7 @@ nav a {
 }
 .main_hero_image2{
   background-image: url("../imgs/teach8.jpg");
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   height:500px;
@@ -81,7 +82,10 @@ nav a:hover {
   min-height: 1px;
   padding-bottom: 1.5rem;
 }
-
+.simple_card_title
+{
+  color: white;
+}
 .hero_image_card_title{
   line-height: 1.5;
   margin-bottom: 0.5rem;
@@ -100,6 +104,7 @@ nav a:hover {
     background-image: url(../imgs/teach8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
     height:500px;
 }
 
@@ -127,16 +132,7 @@ nav a:hover {
     object-fit: cover;
     padding-left: 30px;
   }
-  
- #section3
- {
-    background-color: midnightblue;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    font-size: 25px;
-    text-align: center;
- }
+
  #nav2 
  {
   text-align: center;
@@ -216,7 +212,13 @@ font-size: 18px;
   object-fit: cover;
 
 }
-
+#section7
+{
+  background-color:bisque;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+}
 .course_card{
   border: 1px solid #d1d7dc;
   padding: 3.2rem;
@@ -243,6 +245,7 @@ font-size: 18px;
   max-width: 363px;
   font-size: 3.2rem;
   padding: 24px 0!important;
+  margin-bottom: 0px;
 }
 .main_img {
   background-image: url("../imgs/about-us.png");
@@ -334,6 +337,18 @@ margin-bottom: 0%;
   background-color: blueviolet;
   color: white;
 }
+
+
+.community1{
+  padding: 5%;
+  background-color: blueviolet;
+  color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    text-align: center;
+}
+
 .learn p {
   text-align: center;
   max-width: 80rem;
@@ -347,7 +362,7 @@ margin-bottom: 0%;
 }
 button {
   display: inline-block;
-  margin-top: 24px;
+ 
   padding: 11px 20px;
   color: #fff;
   font-weight: 600;
