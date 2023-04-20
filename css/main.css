@@ -282,4 +282,9 @@ padding-bottom: 5%;
   .hero_image_card{
     display: none;
   }
+header {
+  position: relative;
+  display: flex;
+}
+
 }
