@@ -57,7 +57,7 @@ nav a:hover {
   grid-gap: 1.6rem;
 }
 
-.simple_card{
+.hero_image_card{
   position: relative;
   flex-direction: column;
   width: 500px; 
@@ -70,13 +70,13 @@ nav a:hover {
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-.simple_card_body{
+.hero_image_card_body{
   flex: 1 1 auto;
   min-height: 1px;
   padding-bottom: 1.5rem;
 }
 
-.simple_card_title{
+.hero_image_card_title{
   line-height: 1.5;
   margin-bottom: 0.5rem;
   font-size: 20px;
@@ -88,7 +88,27 @@ nav a:hover {
 .border-0{
   border: none;
 }
-/* about us page css START */
+
+.course_card{
+  border: 1px solid #d1d7dc;
+  padding: 3.2rem;
+}
+
+.course_card_heading{
+  margin-bottom: 0.8rem;
+  max-width: 80rem;
+}
+
+.course_card_content{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  margin-bottom: 1.6rem;
+  max-width: 80rem;
+}
 header h1 {
   text-align: left;
   max-width: 363px;
@@ -240,7 +260,7 @@ padding-bottom: 5%;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .simple_card{
+  .hero_image_card{
     padding: 14px;
   }
 }
@@ -259,7 +279,7 @@ padding-bottom: 5%;
     height: 300px;
   }
 
-  .simple_card{
+  .hero_image_card{
     display: none;
   }
 }
