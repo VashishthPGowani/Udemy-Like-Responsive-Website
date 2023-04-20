@@ -50,3 +50,25 @@ nav a:hover {
   grid-auto-flow: column;
   grid-gap: 1.6rem;
 }
+
+/* tablet media query  */
+@media screen and (max-width:1023px) {
+  .categories_card{    
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* mobile media query  */
+@media screen and (max-width:768px) {
+  .categories_card{    
+    grid-template-columns: 1fr 1fr;
+  }
+
+  nav a {
+    float: none;
+  }
+
+  nav{
+    height: 300px;
+  }
+}
