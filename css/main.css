@@ -3,7 +3,6 @@ nav {
   background-color: black;
   height: 50px;
 }
-
 nav a {
   float: left;
   display: block;
@@ -64,7 +63,7 @@ nav a:hover {
   grid-gap: 1.6rem;
 }
 
-.simple_card{
+.hero_image_card{
   position: relative;
   flex-direction: column;
   width: 500px; 
@@ -77,13 +76,13 @@ nav a:hover {
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-.simple_card_body{
+.hero_image_card_body{
   flex: 1 1 auto;
   min-height: 1px;
   padding-bottom: 1.5rem;
 }
 
-.simple_card_title{
+.hero_image_card_title{
   line-height: 1.5;
   margin-bottom: 0.5rem;
   font-size: 20px;
@@ -217,13 +216,179 @@ font-size: 18px;
 
 }
 
+.course_card{
+  border: 1px solid #d1d7dc;
+  padding: 3.2rem;
+}
+
+.course_card_heading{
+  margin-bottom: 0.8rem;
+  max-width: 80rem;
+}
+
+.course_card_content{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  margin-bottom: 1.6rem;
+  max-width: 80rem;
+}
+/* about us START */
+header h1 {
+  text-align: left;
+  max-width: 363px;
+  font-size: 3.2rem;
+  padding: 24px 0!important;
+}
+header {
+  background-image: url("../imgs/about-us.png");
+  background-position: right;
+  background-repeat: no-repeat;
+padding: 7%;
+margin-bottom: 0%;
+}
+.purple {
+  margin-top: 0%;
+  background-color:blueviolet;
+}
+.purple p {
+  text-align: center;
+  padding: 20px;
+  margin: 0%;
+  color: white;
+}
+.herotext h1 {
+  text-align:center;
+  font-size: 3.2rem;
+}
+.herotext p {
+  text-align: center;
+  max-width: 80rem;
+  font-size: 1.6rem;
+}
+.herotext {
+  padding: 5%;
+}
+.video {
+  padding: 5% 1% 5% 1%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.grid-item {
+  font-size: 20px;
+  border-radius: 12px;
+  margin: 2%;
+  text-align: center;
+}
+.grid-item img {
+  width: 500px;
+  height: auto;
+}
+.grid-item h2 {
+  font-size: 3rem;
+    font-weight: 600;
+    padding: 0 4px 0 4px;
+}
+.grid-item p {
+  padding: 0 7px 0 7px;
+}
+
+.flex-container {
+  overflow: auto;
+}
+.com-item {
+  float:left;
+  width: 25%;
+  text-align: center;
+}
+.icon {
+  display: block;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  text-align:inherit;
+}
+
+.community h1 {
+  text-align:center;
+  font-size: 3.2rem;
+  
+}
+.community p {
+  text-align: center;
+  max-width: 80rem;
+  font-size: 1.6rem;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.community{
+  padding: 5%;
+  background-color: blueviolet;
+  color: white;
+}
+.learn p {
+  text-align: center;
+  max-width: 80rem;
+  font-size: 1.6rem;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.learn {
+  padding: 5%;
+  position: relative;
+}
+button {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 11px 20px;
+  color: #fff;
+  font-weight: 600;
+  background: #1c1d1f;
+  margin-bottom: 57px;
+  text-align: center;
+  font-size: 20px;
+}
+.learn a {
+  padding-left: 45%;
+}
+#quote-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+margin: 0 2% 0 2%;
+padding-bottom: 5%;
+}
+.items{
+  width: 30%; 
+  box-shadow: 0px 0px 20px #eee;
+  text-align: left;
+  justify-content: space-between; 
+}
+.items p{
+  font-size: 25px;
+  padding: 3%;
+}
+.items a {
+  color: blueviolet;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: none ;
+}
+/* about us page css END */
 /* tablet media query  */
 @media screen and (max-width:1023px) {
   .categories_card{    
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .simple_card{
+  .hero_image_card{
     padding: 14px;
   }
 }
@@ -242,7 +407,12 @@ font-size: 18px;
     height: 300px;
   }
 
-  .simple_card{
+  .hero_image_card{
     display: none;
   }
+header {
+  position: relative;
+  display: flex;
+}
+
 }
