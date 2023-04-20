@@ -384,6 +384,26 @@ padding-bottom: 5%;
 }
 /* about us page css END */
 
+/* udemy business Start */
+.udem_img h1 {
+    text-align: left;
+    max-width: 363px;
+    font-size: 3.2rem;
+    padding: 24px 0!important;
+  }
+  .udem_img h2 {
+    padding: 0% 55% 0 0;
+  }
+  .udem_img {
+    background-image: url("../imgs/business1.jpg");
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size:contain;
+  padding: 7%;
+  margin-bottom: 0%;
+  }
+
+
 /* mobile media query  */
 @media screen and (max-width:768px) {
   .categories_card{    
