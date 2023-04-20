@@ -14,6 +14,13 @@ nav a {
   font-size: 17px;
 }
 
+.main_hero_image{
+  background-image: url("/imgs/5325b302-9037-47d4-b1af-d7b6c18bc284.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
 nav a:hover {
   background-color: white;
   color: black;
@@ -51,10 +58,46 @@ nav a:hover {
   grid-gap: 1.6rem;
 }
 
+.simple_card{
+  position: relative;
+  flex-direction: column;
+  width: 500px; 
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  text-align: center;
+  padding: 63px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.08);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.simple_card_body{
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding-bottom: 1.5rem;
+}
+
+.simple_card_title{
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500 !important;
+  font-style: normal;
+}
+
+.border-0{
+  border: none;
+}
+
 /* tablet media query  */
 @media screen and (max-width:1023px) {
   .categories_card{    
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .simple_card{
+    padding: 14px;
   }
 }
 
@@ -70,5 +113,9 @@ nav a:hover {
 
   nav{
     height: 300px;
+  }
+
+  .simple_card{
+    display: none;
   }
 }
