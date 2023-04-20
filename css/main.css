@@ -238,13 +238,13 @@ font-size: 18px;
   max-width: 80rem;
 }
 /* about us START */
-header h1 {
+.main_img h1 {
   text-align: left;
   max-width: 363px;
   font-size: 3.2rem;
   padding: 24px 0!important;
 }
-header {
+.main_img {
   background-image: url("../imgs/about-us.png");
   background-position: right;
   background-repeat: no-repeat;
