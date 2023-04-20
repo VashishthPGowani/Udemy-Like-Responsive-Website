@@ -12,151 +12,109 @@ nav a {
   text-decoration: none;
   font-size: 17px;
 }
+
+.main_hero_image{
+  background-image: url("/imgs/5325b302-9037-47d4-b1af-d7b6c18bc284.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
 nav a:hover {
   background-color: white;
   color: black;
 }
-header h1 {
-  text-align: left;
-  max-width: 363px;
-  font-size: 3.2rem;
-  padding: 24px 0!important;
-}
-header {
-  background-image: url("../imgs/about-us.png");
-  background-position: right;
-  background-repeat: no-repeat;
-padding: 7%;
-margin-bottom: 0%;
-}
-.purple {
-  margin-top: 0%;
-  background-color:blueviolet;
-}
-.purple p {
-  text-align: center;
-  padding: 20px;
-  margin: 0%;
-  color: white;
-}
-.herotext h1 {
-  text-align:center;
-  font-size: 3.2rem;
-}
-.herotext p {
-  text-align: center;
-  max-width: 80rem;
-  font-size: 1.6rem;
-}
-.herotext {
-  padding: 5%;
-}
-.video {
-  padding: 5% 1% 5% 1%;
-}
-.grid-container {
+
+.categories_card{
   display: grid;
-  grid-template-columns: auto auto;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.grid-item {
-  font-size: 20px;
-  border-radius: 12px;
-  margin: 2%;
-  text-align: center;
-}
-.grid-item img {
-  width: 500px;
-  height: auto;
-}
-.grid-item h2 {
-  font-size: 3rem;
-    font-weight: 600;
-    padding: 0 4px 0 4px;
-}
-.grid-item p {
-  padding: 0 7px 0 7px;
-}
-
-.flex-container {
-  overflow: auto;
-}
-.com-item {
-  float:left;
-  width: 25%;
-  text-align: center;
-}
-.icon {
-  display: block;
-  font-size: 2em;
-  color: rgb(255, 255, 255);
-  text-align:inherit;
-}
-
-.community h1 {
-  text-align:center;
-  font-size: 3.2rem;
-  
-}
-.community p {
-  text-align: center;
-  max-width: 80rem;
-  font-size: 1.6rem;
-  padding-left: 15%;
-  padding-right: 15%;
-}
-
-.community{
-  padding: 5%;
-  background-color: blueviolet;
-  color: white;
-}
-.learn p {
-  text-align: center;
-  max-width: 80rem;
-  font-size: 1.6rem;
-  padding-left: 15%;
-  padding-right: 15%;
-}
-.learn {
-  padding: 5%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   position: relative;
 }
-button {
-  display: inline-block;
-  margin-top: 24px;
-  padding: 11px 20px;
-  color: #fff;
-  font-weight: 600;
-  background: #1c1d1f;
-  margin-bottom: 57px;
-  text-align: center;
-  font-size: 20px;
+
+.card_img{
+  overflow: hidden;
+  padding-left: 17px;
 }
-.learn a {
-  padding-left: 45%;
+
+.card_label{
+  color: #1c1d1f;
+  padding-left: 17px;
 }
-#quote-container {
+
+.testimonial_card{
+  background: #fff;
+  border: 1px solid #d1d7dc;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-margin: 0 2% 0 2%;
-padding-bottom: 5%;
+  height: 100%;
+  padding: 2.4rem;
+  width: 32.7rem;
 }
-.items{
-  width: 30%; 
-  box-shadow: 0px 0px 20px #eee;
-  text-align: left;
-  justify-content: space-between; 
+
+.testimonial_container{
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: column;
+  grid-gap: 1.6rem;
 }
-.items p{
-  font-size: 25px;
-  padding: 3%;
+
+.simple_card{
+  position: relative;
+  flex-direction: column;
+  width: 500px; 
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  text-align: center;
+  padding: 63px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.08);
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
-.items a {
-  color: blueviolet;
-  font-weight: bolder;
+
+.simple_card_body{
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding-bottom: 1.5rem;
+}
+
+.simple_card_title{
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
   font-size: 20px;
-  text-decoration: none ;
+  font-family: Roboto;
+  font-weight: 500 !important;
+  font-style: normal;
+}
+
+.border-0{
+  border: none;
+}
+
+/* tablet media query  */
+@media screen and (max-width:1023px) {
+  .categories_card{    
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .simple_card{
+    padding: 14px;
+  }
+}
+
+/* mobile media query  */
+@media screen and (max-width:768px) {
+  .categories_card{    
+    grid-template-columns: 1fr 1fr;
+  }
+
+  nav a {
+    float: none;
+  }
+
+  nav{
+    height: 300px;
+  }
+
+  .simple_card{
+    display: none;
+  }
 }
