@@ -406,4 +406,55 @@ header {
   display: flex;
 }
 
+.main_img h1{
+  display: none;
+}
+
+ .main_img{
+  padding-top: 400px;
+ }
+
+ .community{
+  padding: 0;
+ }
+
+ .items p{
+  font-size: 15px;
+  padding: 0;
+ }
+
+ .items a {
+  font-weight: unset;
+  font-size: 15px;
+}
+
+.items h2,.items h3{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.learn p{
+  font-size: 16px;
+}
+
+button{
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.community p{
+  font-size: 16px;
+}
+
+.community h1{
+  font-size: 30px;
+}
+
+.herotext h1{
+  font-size: 27px;
+}
+
+.herotext p{
+  font-size: 16px;
+}
 }
