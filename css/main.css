@@ -525,30 +525,38 @@ textarea {
   color: white;
   background-color: blueviolet;
 }
+
+/* udemy business END */
+
+/* FOOTER START */
 footer img {
   width: 50px;
-  text-align: center;
 }
 .social img {
   padding: 0%;
 }
 .social {
-  text-align: center;
+  float: right;
   padding: 0px 0 2% 0;
 }
 footer {
-  background-color: black;
+  font-family: "Times New Roman";
+  font-size: larger;
+  background-color: rgb(0, 0, 0);
+  padding-top: 10px;
+  padding-bottom: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
-footer nav a {
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.navlink h3 {
+  color: white;
 }
-footer nav {
-  text-align: center;
+.navlink li {
+  list-style-type: none;
+  display:block;
 }
+
+/* FOOTER END */
 /* mobile media query  */
 @media screen and (max-width:768px) {
   .categories_card{    
@@ -665,6 +673,27 @@ button{
 .items{
   width: auto;
   height: 188px;
+}
+
+.simple_card_title{
+  display: none;
+}
+
+.main_hero_image2 {  
+  height: 300px;
+}
+
+.community1{
+  display: block;
+  font-size: large;
+}
+
+#headin1 {
+  font-size: 20px;
+}
+
+#nav2 a {
+  font-size: 14px;
 }
 
 }
