@@ -1,5 +1,5 @@
 nav {
-  text-align: center;
+
   background-color: black;
   height: 50px;
 }
@@ -257,7 +257,6 @@ margin-bottom: 0%;
 }
 button {
   display: inline-block;
- 
   padding: 11px 20px;
   color: #fff;
   font-weight: 600;
@@ -266,9 +265,13 @@ button {
   text-align: center;
   font-size: 20px;
 }
-.learn a {
+/* .learn a {
   padding-left: 45%;
-}
+} */
+#bt
+{
+  width: 200px;
+  margin: 0 auto;}
 #quote-container {
   display: flex;
   flex-wrap: wrap;
@@ -451,14 +454,87 @@ font-size: 18px;
   height: 200px;
 padding: 0 5px 0 5px;
 }
+.udem_companies {
+  background-color: #414242;
+  padding: 13px 0 13px 0;
+}
+.udem_companies img {
+  height: 120px;
+  width: 120px;
+  padding: 4% 3% 4% 3%;
+}
+.udem_companies {
+  text-align:center;
+  font-size: 2.1rem;
+  color: white;
+}
 
-
+.udem-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.udem-grid-item {
+  font-size: 20px;
+  text-align:left;
+}
+form {
+padding-top: 10%;
+}
+input, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+#sub_button {
+  color: white;
+  background-color: blueviolet;
+}
+footer img {
+  width: 50px;
+  text-align: center;
+}
+.social img {
+  padding: 0%;
+}
+.social {
+  text-align: center;
+  padding: 0px 0 2% 0;
+}
+footer {
+  background-color: black;
+}
+footer nav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+footer nav {
+  text-align: center;
+}
 /* mobile media query  */
 @media screen and (max-width:768px) {
   .categories_card{    
     grid-template-columns: 1fr 1fr;
   }
-
   nav a {
     float: none;
   }
@@ -484,22 +560,23 @@ header {
  }
 
  .community{
-  padding: 0;
+  padding: 1px;
  }
 
  .items p{
   font-size: 15px;
-  padding: 0;
  }
 
  .items a {
   font-weight: unset;
   font-size: 15px;
+  padding-left: 14px;
 }
 
 .items h2,.items h3{
   font-weight: bold;
   font-size: 15px;
+  padding-left: 13px;
 }
 
 .learn p{
@@ -526,4 +603,49 @@ button{
 .herotext p{
   font-size: 16px;
 }
+
+.video {
+  padding: 0;
+}
+
+.grid-container
+{
+  display: block;
+  margin-left: 0;
+}
+
+.grid-item h2 {
+  font-size: 30px;
+}
+
+.grid-item p {
+  padding: 0 ;
+  font-size: 16px;
+}
+
+.icon{
+  font-size: 22px;
+}
+
+.learn {
+  padding: 6%;
+}
+.grid-item{
+  padding: 3px;
+}
+
+#bt{
+  width: 120px;
+}
+
+#quote-container{
+  display: block;
+  margin: 15px;
+}
+
+.items{
+  width: auto;
+  height: 188px;
+}
+
 }
