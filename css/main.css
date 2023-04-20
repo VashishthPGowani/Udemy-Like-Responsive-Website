@@ -72,7 +72,7 @@ nav a:hover {
   background-color: #fff;
   background-clip: border-box;
   text-align: center;
-  padding: 63px;
+  padding: 0;
   box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.08);
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
@@ -92,6 +92,7 @@ nav a:hover {
   font-size: 20px;
   font-family: Roboto;
   font-weight: 500 !important;
+  padding-left: 100px;
   font-style: normal;
 }
 
@@ -239,14 +240,14 @@ font-size: 18px;
   max-width: 80rem;
 }
 /* about us START */
-header h1 {
+.main_img h1 {
   text-align: left;
   max-width: 363px;
   font-size: 3.2rem;
   padding: 24px 0!important;
   margin-bottom: 0px;
 }
-header {
+.main_img {
   background-image: url("../imgs/about-us.png");
   background-position: right;
   background-repeat: no-repeat;
@@ -397,16 +398,26 @@ padding-bottom: 5%;
   text-decoration: none ;
 }
 /* about us page css END */
-/* tablet media query  */
-@media screen and (max-width:1023px) {
-  .categories_card{    
-    grid-template-columns: 1fr 1fr 1fr;
+
+/* udemy business Start */
+.udem_img h1 {
+    text-align: left;
+    max-width: 363px;
+    font-size: 3.2rem;
+    padding: 24px 0!important;
+  }
+  .udem_img h2 {
+    padding: 0% 55% 0 0;
+  }
+  .udem_img {
+    background-image: url("../imgs/business1.jpg");
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size:contain;
+  padding: 7%;
+  margin-bottom: 0%;
   }
 
-  .hero_image_card{
-    padding: 14px;
-  }
-}
 
 /* mobile media query  */
 @media screen and (max-width:768px) {
