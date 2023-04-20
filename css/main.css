@@ -21,7 +21,7 @@ nav a {
 }
 .main_hero_image2{
   background-image: url("../imgs/teach8.jpg");
-  background-position: right;
+
   background-repeat: no-repeat;
   background-size: cover;
   height:500px;
@@ -84,7 +84,11 @@ nav a:hover {
 }
 .simple_card_title
 {
+  text-align: left;
   color: white;
+  margin-left: 100px;
+  padding-top:130px;
+  font-size: 25px;
 }
 .hero_image_card_title{
   line-height: 1.5;
