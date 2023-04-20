@@ -393,6 +393,7 @@ padding-bottom: 5%;
   }
   .udem_img h2 {
     padding: 0% 55% 0 0;
+    font-size: 20px;
   }
   .udem_img {
     background-image: url("../imgs/business1.jpg");
@@ -402,6 +403,23 @@ padding-bottom: 5%;
   padding: 7%;
   margin-bottom: 0%;
   }
+  .udem_badge {
+    padding: 5%;
+  }
+.udem_badge h1 {
+  text-align:center;
+  font-size: 3.1rem;
+}
+.udem_badge p {
+  text-align: center;
+  max-width: 80rem;
+  font-size: 1.6rem;
+}
+.udem_badge img {
+  width: 200px;
+  height: 200px;
+padding: 0 5px 0 5px;
+}
 
 
 /* mobile media query  */
