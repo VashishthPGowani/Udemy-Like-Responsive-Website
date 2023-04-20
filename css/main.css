@@ -1,5 +1,5 @@
 nav {
-  text-align: center;
+
   background-color: black;
   height: 50px;
 }
@@ -493,6 +493,30 @@ textarea {
 #sub_button {
   color: white;
   background-color: blueviolet;
+}
+footer img {
+  width: 50px;
+  text-align: center;
+}
+.social img {
+  padding: 0%;
+}
+.social {
+  text-align: center;
+  padding: 0px 0 2% 0;
+}
+footer {
+  background-color: black;
+}
+footer nav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+footer nav {
+  text-align: center;
 }
 /* mobile media query  */
 @media screen and (max-width:768px) {
