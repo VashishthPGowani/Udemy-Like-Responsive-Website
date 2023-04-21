@@ -3,6 +3,10 @@
   height: 55px;
   margin: 0;
 }
+
+.centered{
+  text-align: center;
+}
 .header a {
   float: left;
   display: block;
@@ -565,12 +569,12 @@ footer {
   .categories_card {
     grid-template-columns: 1fr 1fr;
   }
-  nav a {
+  .header a {
     float: none;
   }
 
-  nav {
-    height: 300px;
+  .header {
+    height: 251px;
   }
 
   .hero_image_card {
@@ -784,14 +788,12 @@ margin-bottom: 10px;
 
   /* main page */
   .main_hero_image {
-    display: block;
-    width: 100%;
-    background-size: cover;
+   height: 150px;
   }
   .courses {
     width: 50%;
     text-align: center;
-    padding-left: 7%;
+    padding-left: 18%;
   }
   .center {
     text-align: center;
@@ -799,17 +801,24 @@ margin-bottom: 10px;
   #quote-container {
     display: flex;
     flex-direction: column;
-    margin-left: 25%;
+    margin-left: 1%;
   }
   .categories_card {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 23%;
+    margin-left: 18%;
   }
-  h2 {
-    font-size: 15px;
+
+  .card_img{
+    padding-left: 0;
+  }
+
+  .courses img{
+    object-fit: contain;
   }
   /* end Home page */
-
+  .items{
+    width: 100%;
+  }
 }
