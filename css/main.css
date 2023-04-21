@@ -1,6 +1,7 @@
 .header {
   background-color: black;
-  height: 50px;
+  height: 55px;
+  margin: 0;
 }
 .header a {
   float: left;
@@ -11,7 +12,12 @@
   text-decoration: none;
   font-size: 17px;
 }
-
+#logom {
+  background-color: white;
+  color: blueviolet;
+  font-size: 25px;
+  text-transform: uppercase;
+}
 footer nav {
   background-color: black;
 }
@@ -694,12 +700,14 @@ footer {
   #nav2 a {
     font-size: 14px;
   }
-.udem_img {
-  background-position: left;
-  height: 291px;
-}
+  .udem_img {
+    background-position: left;
+    height: 291px;
+  }
 
-.udem_img h1,.udem_img h2,.udem_img button{
-  display: none;
-}
+  .udem_img h1,
+  .udem_img h2,
+  .udem_img button {
+    display: none;
+  }
 }
