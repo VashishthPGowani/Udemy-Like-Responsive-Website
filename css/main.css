@@ -669,4 +669,12 @@ button{
   font-size: 14px;
 }
 
+.udem_img {
+  background-position: left;
+  height: 291px;
+}
+
+.udem_img h1,.udem_img h2,.udem_img button{
+  display: none;
+}
 }
