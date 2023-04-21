@@ -579,6 +579,7 @@ footer {
   header {
     position: relative;
     display: flex;
+    clear: both;
   }
 
   .main_img h1 {
@@ -668,11 +669,6 @@ footer {
     width: 120px;
   }
 
-  #quote-container {
-    display: block;
-    margin: 15px;
-  }
-
   .items {
     display: inline-block;
     width: 33%;
@@ -710,4 +706,34 @@ footer {
   .udem_img button {
     display: none;
   }
+
+  /* main page */
+  .main_hero_image {
+    display: block;
+    width: 100%;
+    background-size: cover;
+  }
+  .courses {
+    width: 50%;
+    text-align: center;
+    padding-left: 7%;
+  }
+  .center {
+    text-align: center;
+  }
+  #quote-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+  }
+  .categories_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 23%;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  /* end Home page */
 }
