@@ -4,11 +4,11 @@
   margin: 0;
 }
 
-.centered{
+.centered {
   text-align: center;
 }
 .header a {
-  float: left;
+  float: right;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -17,6 +17,7 @@
   font-size: 17px;
 }
 #logom {
+  float: left;
   background-color: white;
   color: blueviolet;
   font-size: 25px;
@@ -132,7 +133,7 @@ nav a:hover {
 }
 
 .course_card {
-  border: 1px solid #d1d7dc;
+  border: 1px solid #000000;
   padding-top: 5px;
   padding-left: 15px;
 }
@@ -161,6 +162,7 @@ nav a:hover {
   text-align: center;
   display: inline-block;
   margin: 3px;
+  box-shadow: 0px 0px 20px #eee;
 }
 .courses img {
   width: 200px;
@@ -198,12 +200,12 @@ h2 {
 }
 .herotext h1 {
   text-align: center;
-  font-size: 3.2rem;
+  font-size: 3rem;
 }
 .herotext p {
   text-align: center;
   max-width: 80rem;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 .herotext {
   padding: 5%;
@@ -218,7 +220,7 @@ h2 {
   margin-right: 5%;
 }
 .grid-item {
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 12px;
   margin: 2%;
   text-align: center;
@@ -258,7 +260,7 @@ h2 {
 .community p {
   text-align: center;
   max-width: 80rem;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -282,7 +284,7 @@ h2 {
 .learn p {
   text-align: center;
   max-width: 80rem;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -321,13 +323,16 @@ button {
   justify-content: space-between;
 }
 .items p {
-  font-size: 25px;
+  font-size: 20px;
   padding: 3%;
+}
+.items h2 {
+  font-size: 25px;
 }
 .items a {
   color: blueviolet;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 15px;
   text-decoration: none;
 }
 /* about us page css END */
@@ -713,21 +718,19 @@ footer {
 
   .main_hero_image2 {
     background-image: url("../imgs/teach8.jpg");
-  
+
     background-repeat: no-repeat;
     background-size: contain;
     width: 530px;
-    height:400px;
+    height: 400px;
   }
   #section4 section {
     width: 100%;
-    
   }
   #section4 img {
     width: 250px;
     height: 250px;
     object-fit: contain;
-    
   }
   #section4 p {
     font-size: 15px;
@@ -736,9 +739,8 @@ footer {
   }
   #section5 section {
     width: 100%;
-    
   }
-  #section5 img { 
+  #section5 img {
     width: 250px;
     height: 250px;
     object-fit: contain;
@@ -746,9 +748,9 @@ footer {
   }
   #section5 p {
     font-size: 15px;
-   padding-left: 10px;
-   padding-right: 10px;
-   padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
   }
   #section6 section {
     width: 100%;
@@ -761,24 +763,23 @@ footer {
   }
   #section6 p {
     font-size: 15px;
-   
-   padding-top: 0px;
+
+    padding-top: 0px;
   }
-  #section7 button
-  {
-margin-bottom: 10px;
+  #section7 button {
+    margin-bottom: 10px;
   }
   #section2 {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-  
+
   #section2 section {
     width: 100%;
     overflow: hidden;
   }
-  
+
   #section2 img {
     width: 100px;
     height: 100px;
@@ -788,7 +789,7 @@ margin-bottom: 10px;
 
   /* main page */
   .main_hero_image {
-   height: 150px;
+    height: 150px;
   }
   .courses {
     width: 50%;
@@ -810,27 +811,27 @@ margin-bottom: 10px;
     margin-left: 18%;
   }
 
-  .card_img{
+  .card_img {
     padding-left: 0;
   }
 
-  .courses img{
+  .courses img {
     object-fit: contain;
   }
   /* end Home page */
-  .items{
+  .items {
     width: 100%;
   }
 
-  .udem_badge h1{
+  .udem_badge h1 {
     font-size: x-large;
   }
 
-  .udem_badge p{
+  .udem_badge p {
     font-size: large;
   }
 
-  .udem-grid{
+  .udem-grid {
     display: block;
   }
 }
