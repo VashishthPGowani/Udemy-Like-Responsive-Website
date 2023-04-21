@@ -821,4 +821,16 @@ margin-bottom: 10px;
   .items{
     width: 100%;
   }
+
+  .udem_badge h1{
+    font-size: x-large;
+  }
+
+  .udem_badge p{
+    font-size: large;
+  }
+
+  .udem-grid{
+    display: block;
+  }
 }
