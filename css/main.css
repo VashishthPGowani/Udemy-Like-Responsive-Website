@@ -668,8 +668,10 @@ footer {
   }
 
   .items {
-    width: auto;
-    height: 188px;
+    display: inline-block;
+    width: 33%;
+    margin-bottom: 24px;
+    text-align: center;
   }
 
   .simple_card_title {
