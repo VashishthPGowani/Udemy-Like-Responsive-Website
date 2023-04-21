@@ -706,4 +706,110 @@ footer {
   .udem_img button {
     display: none;
   }
+
+  .main_hero_image2 {
+    background-image: url("../imgs/teach8.jpg");
+  
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 530px;
+    height:400px;
+  }
+  #section4 section {
+    width: 100%;
+    
+  }
+  #section4 img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    
+  }
+  #section4 p {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  #section5 section {
+    width: 100%;
+    
+  }
+  #section5 img { 
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    padding-left: 40px;
+  }
+  #section5 p {
+    font-size: 15px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 0px;
+  }
+  #section6 section {
+    width: 100%;
+    padding-top: 0px;
+  }
+  #section6 img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+  }
+  #section6 p {
+    font-size: 15px;
+   
+   padding-top: 0px;
+  }
+  #section7 button
+  {
+margin-bottom: 10px;
+  }
+  #section2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #section2 section {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #section2 img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding-left: 30px;
+  }
+
+  /* main page */
+  .main_hero_image {
+    display: block;
+    width: 100%;
+    background-size: cover;
+  }
+  .courses {
+    width: 50%;
+    text-align: center;
+    padding-left: 7%;
+  }
+  .center {
+    text-align: center;
+  }
+  #quote-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+  }
+  .categories_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 23%;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  /* end Home page */
+
 }
