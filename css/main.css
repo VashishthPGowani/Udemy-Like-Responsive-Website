@@ -1,9 +1,9 @@
-nav {
+.header {
 
   background-color: black;
   height: 50px;
 }
-nav a {
+.header a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -13,6 +13,26 @@ nav a {
   font-size: 17px;
 }
 
+footer nav {
+
+  background-color: black;
+ 
+}
+footer  nav a {
+  display: block;
+  color: #f2f2f2;
+ 
+  text-decoration: none;
+ 
+}
+#navfooter h3{
+  margin: 0px;
+    margin-bottom: 10px;
+}
+.ff{
+  display: flex;
+  justify-content: space-between
+}
 .main_hero_image{
   background-image: url("/imgs/5325b302-9037-47d4-b1af-d7b6c18bc284.jpg");
   background-size: contain;
@@ -80,6 +100,8 @@ nav a:hover {
 .hero_image_card_body{
   flex: 1 1 auto;
   min-height: 1px;
+  font-size: 20px;
+  font-weight: bold;
   
 }
 .simple_card_title
@@ -102,6 +124,7 @@ nav a:hover {
 
 .border-0{
   border: none;
+  margin-left: 60px;
 }
 
 .course_card{
@@ -538,24 +561,29 @@ footer img {
 .social {
   float: right;
   padding: 0px 0 2% 0;
+  color:white;
 }
 footer {
   font-family: "Times New Roman";
-  font-size: larger;
+color:white;
   background-color: rgb(0, 0, 0);
   padding-top: 10px;
-  padding-bottom: 15%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+
 }
 .navlink h3 {
   color: white;
 }
-.navlink li {
-  list-style-type: none;
-  display:block;
+#navfooter
+{
+  color:white;
+  font-size: 20px;
+  display:flex;
+  flex-direction: column;
+  
 }
-
 /* FOOTER END */
 /* mobile media query  */
 @media screen and (max-width:768px) {
